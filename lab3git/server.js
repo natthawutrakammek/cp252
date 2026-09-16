@@ -1,8 +1,9 @@
 // server.js
 const http = require('http');
 
+<<<<<<< HEAD
 const hostname = 'localhost';
-const port = 3000;
+const port = 8080;
 
 // Create the server and define what it does
 const server = http.createServer((req, res) => {
