@@ -1,7 +1,6 @@
 // server.js
 const http = require('http');
 
-<<<<<<< HEAD
 const hostname = 'localhost';
 const port = 8080;
 
