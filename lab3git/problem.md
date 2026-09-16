@@ -1,8 +1,2 @@
-<<<<<<< HEAD
-This is the main branch at 50% 
-No problem
-
-=======
-Change the line to “This is the mybug branch at 50%”
-Add one line “Just ok”
->>>>>>> mydev2
+This is the main branch at 100%
+Just ok
