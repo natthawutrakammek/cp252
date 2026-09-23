@@ -40,22 +40,22 @@ class ExpenseModel {
   getAll() {
     return this.expenses;
   }
+  
   /** @return {number} */
-
   getTotalIncome() {
     return this.expenses.reduce((sum, exp) => sum + exp.income, 0);
   }
+  
   /** @return {number} */
-
   getTotalExpense() {
     return this.expenses.reduce((sum, exp) => sum + exp.expense, 0);
   }
+  
   /** @return {number} */
-
   getMoneyLeft() {
     return this.getTotalIncome() - this.getTotalExpense();
   }
-  /** @return {number} */
+  
 
 }
 
