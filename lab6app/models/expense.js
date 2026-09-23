@@ -4,6 +4,8 @@ class Expense {
    @constructor
    @param {date} date - The date of the expense.
    @param {float} income - The author of the book.
+   @param {float} expense 
+   @param {string} detail 
  */
   constructor(date, income, expense, detail) {
     this.date = date;
@@ -15,7 +17,7 @@ class Expense {
 
 /**
  * Class ExpenseModel.
- * @class
+ * @class ExpenseModel
  */
 class ExpenseModel {
   constructor() {
@@ -24,7 +26,7 @@ class ExpenseModel {
 
 /**
  * add expense numbers passed to the function.
- * @param {float} expense - A positive number.
+ * @param {Expense} expense - A positive number.
  */
   add(expense) {
     this.expenses.push(expense);
@@ -32,7 +34,7 @@ class ExpenseModel {
 
 /**
  * return expense numbers from stack.
- * @return {array} expense - array of positive number
+ * @return {Expense[]} expense - array of positive number
  */
 
   getAll() {
